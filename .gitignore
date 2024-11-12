@@ -1,0 +1,66 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Ignore environment configuration files
+*.env
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore data files (raw and processed data)
+data/raw/
+data/processed/
+
+# Ignore output files (reports, figures)
+reports/figures/
+reports/summary/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+
+# Ignore Jupyter Notebook exports
+*.ipynb_export.py
+
+# Ignore testing coverage and cache
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.coverage
+.tox/
+.pytest_cache/
+test-results/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/

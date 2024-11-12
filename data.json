@@ -1,0 +1,64 @@
+{
+  "_id": "0x2453db4580536a227143caf63a92d75b0ae342f59c92b4f125a5bfec6ad8e94c",
+  "blockNumber": 20882363,
+  "bundleIds": [
+    "0xd34a0d33cc790a39ad0fc24a4185cd8f921cedac42078f407e9c108861968d20",
+    "0x4fa4ed916fc72ff8b43868a924548af4084c7b761c6f075b70e5b1d32db69a80"
+  ],
+  "libMev": {
+    "bundleId": "0xd34a0d33cc790a39ad0fc24a4185cd8f921cedac42078f407e9c108861968d20",
+    "tag": "victim",
+    "types": [
+      "backrun"
+    ]
+  },
+  "sources": [
+    "libmev"
+  ],
+  "tags": [
+    "victim"
+  ],
+  "timestamp": 1727926847,
+  "types": [
+    "backrun",
+    "arbitrage"
+  ],
+  "eigenphy": {
+    "signalBundle": "0x4fa4ed916fc72ff8b43868a924548af4084c7b761c6f075b70e5b1d32db69a80",
+    "signalOfTx": "0x4fa4ed916fc72ff8b43868a924548af4084c7b761c6f075b70e5b1d32db69a80",
+    "signalType": "arbitrage"
+  },
+  "transactionIndex": 16,
+  "checkFilled": true,
+  "contractName": "UniswapV2Router02",
+  "inputDecoded": {
+    "signature": "0x5c11d795",
+    "func": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+    "args": {
+      "amountIn": "490896737337094",
+      "amountOutMin": "289044344791334905",
+      "path": [
+        "0x92d001C60df1C2248aE9020BBAC559331CefCdec",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      ],
+      "to": "0x4aFc03b05B3e712f8383d83707D3c295675Dce51",
+      "deadline": "1728013240"
+    }
+  },
+  "raw": {
+    "blockHash": "0x28f23df5f4a6657d123a180c0137329ef7baa70d1a041b1a7693ec2d26d5eaf0",
+    "from": "0x4afc03b05b3e712f8383d83707d3c295675dce51",
+    "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "value": "0",
+    "input": "0x5c11d7950000000000000000000000000000000000000000000000000001be77cda67f060000000000000000000000000000000000000000000000000402e44cd79f7ff900000000000000000000000000000000000000000000000000000000000000a00000000000000000000000004afc03b05b3e712f8383d83707d3c295675dce510000000000000000000000000000000000000000000000000000000066ff63b8000000000000000000000000000000000000000000000000000000000000000200000000000000000000000092d001c60df1c2248ae9020bbac559331cefcdec000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "transactionIndex": 16,
+    "gas": "300000",
+    "gasPrice": "6545470596",
+    "maxFeePerGas": null,
+    "maxPriorityFeePerGas": null,
+    "nonce": 39,
+    "type": 0,
+    "chainId": 1
+  },
+  "swapAnalyzed": true
+}
